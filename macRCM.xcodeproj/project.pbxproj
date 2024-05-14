@@ -14,6 +14,11 @@
 		792907B52BF3B98D00501DC2 /* macRCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907B42BF3B98D00501DC2 /* macRCMTests.swift */; };
 		792907BF2BF3B98D00501DC2 /* macRCMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */; };
 		792907C12BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */; };
+		792907D42BF3CF2800501DC2 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 792907D32BF3CF2800501DC2 /* LaunchAtLogin */; };
+		792907D72BF3E45200501DC2 /* nxboot_arm64 in Resources */ = {isa = PBXBuildFile; fileRef = 792907D62BF3E45200501DC2 /* nxboot_arm64 */; };
+		792907D92BF3E46A00501DC2 /* nxboot in Resources */ = {isa = PBXBuildFile; fileRef = 792907D82BF3E46A00501DC2 /* nxboot */; };
+		792907DB2BF3ECB600501DC2 /* SwitchPluggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */; };
+		792907DD2BF3F2E600501DC2 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DC2BF3F2E600501DC2 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		792907BA2BF3B98D00501DC2 /* macRCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macRCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITests.swift; sourceTree = "<group>"; };
 		792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		792907CF2BF3CD0300501DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		792907D62BF3E45200501DC2 /* nxboot_arm64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot_arm64; path = ../../../../../Downloads/nxboot_arm64; sourceTree = "<group>"; };
+		792907D82BF3E46A00501DC2 /* nxboot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot; path = ../../../../../Downloads/nxboot; sourceTree = "<group>"; };
+		792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPluggedIn.swift; sourceTree = "<group>"; };
+		792907DC2BF3F2E600501DC2 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792907D42BF3CF2800501DC2 /* LaunchAtLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +106,12 @@
 		792907A12BF3B98C00501DC2 /* macRCM */ = {
 			isa = PBXGroup;
 			children = (
+				792907CF2BF3CD0300501DC2 /* Info.plist */,
 				792907A22BF3B98C00501DC2 /* macRCMApp.swift */,
+				792907DC2BF3F2E600501DC2 /* MenuBar.swift */,
 				792907A42BF3B98C00501DC2 /* ContentView.swift */,
+				792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */,
+				792907D52BF3E44800501DC2 /* Binaries */,
 				792907A62BF3B98D00501DC2 /* Assets.xcassets */,
 				792907AB2BF3B98D00501DC2 /* macRCM.entitlements */,
 				792907A82BF3B98D00501DC2 /* Preview Content */,
@@ -129,6 +144,15 @@
 			path = macRCMUITests;
 			sourceTree = "<group>";
 		};
+		792907D52BF3E44800501DC2 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				792907D62BF3E45200501DC2 /* nxboot_arm64 */,
+				792907D82BF3E46A00501DC2 /* nxboot */,
+			);
+			path = Binaries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +169,9 @@
 			dependencies = (
 			);
 			name = macRCM;
+			packageProductDependencies = (
+				792907D32BF3CF2800501DC2 /* LaunchAtLogin */,
+			);
 			productName = macRCM;
 			productReference = 7929079F2BF3B98C00501DC2 /* macRCM.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 792907962BF3B98C00501DC2;
+			packageReferences = (
+				792907D22BF3CF2800501DC2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			productRefGroup = 792907A02BF3B98C00501DC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792907D92BF3E46A00501DC2 /* nxboot in Resources */,
+				792907D72BF3E45200501DC2 /* nxboot_arm64 in Resources */,
 				792907AA2BF3B98D00501DC2 /* Preview Assets.xcassets in Resources */,
 				792907A72BF3B98D00501DC2 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792907DB2BF3ECB600501DC2 /* SwitchPluggedIn.swift in Sources */,
 				792907A52BF3B98C00501DC2 /* ContentView.swift in Sources */,
+				792907DD2BF3F2E600501DC2 /* MenuBar.swift in Sources */,
 				792907A32BF3B98C00501DC2 /* macRCMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,11 +463,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macRCM/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,11 +492,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = macRCM/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -581,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		792907D22BF3CF2800501DC2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		792907D32BF3CF2800501DC2 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 792907D22BF3CF2800501DC2 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 792907972BF3B98C00501DC2 /* Project object */;
 }
