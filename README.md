@@ -17,5 +17,5 @@ Please ensure to not delete the selected background payload at it's path
 3. you are good to go!
 
 ## Credits
-- [nxboot](https://github.com/mologie/nxboot)
-- [LaunchAtLogin-Modern](https://github.com/sindresorhus/LaunchAtLogin-modern)
+- [nxboot (GPLv3)](https://github.com/mologie/nxboot)
+- [LaunchAtLogin-Modern (MIT)](https://github.com/sindresorhus/LaunchAtLogin-modern)
