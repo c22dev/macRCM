@@ -11,32 +11,12 @@
 		792907A52BF3B98C00501DC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907A42BF3B98C00501DC2 /* ContentView.swift */; };
 		792907A72BF3B98D00501DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792907A62BF3B98D00501DC2 /* Assets.xcassets */; };
 		792907AA2BF3B98D00501DC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792907A92BF3B98D00501DC2 /* Preview Assets.xcassets */; };
-		792907B52BF3B98D00501DC2 /* macRCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907B42BF3B98D00501DC2 /* macRCMTests.swift */; };
-		792907BF2BF3B98D00501DC2 /* macRCMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */; };
-		792907C12BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */; };
 		792907D42BF3CF2800501DC2 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 792907D32BF3CF2800501DC2 /* LaunchAtLogin */; };
 		792907DB2BF3ECB600501DC2 /* SwitchPluggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */; };
 		792907DD2BF3F2E600501DC2 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DC2BF3F2E600501DC2 /* MenuBar.swift */; };
 		79666ECF2BF48B130003D886 /* nxboot in Resources */ = {isa = PBXBuildFile; fileRef = 79666ECD2BF48B130003D886 /* nxboot */; };
 		79666ED02BF48B130003D886 /* nxboot_arm64 in Resources */ = {isa = PBXBuildFile; fileRef = 79666ECE2BF48B130003D886 /* nxboot_arm64 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		792907B12BF3B98D00501DC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 792907972BF3B98C00501DC2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7929079E2BF3B98C00501DC2;
-			remoteInfo = macRCM;
-		};
-		792907BB2BF3B98D00501DC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 792907972BF3B98C00501DC2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7929079E2BF3B98C00501DC2;
-			remoteInfo = macRCM;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7929079F2BF3B98C00501DC2 /* macRCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macRCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +25,6 @@
 		792907A62BF3B98D00501DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792907A92BF3B98D00501DC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		792907AB2BF3B98D00501DC2 /* macRCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macRCM.entitlements; sourceTree = "<group>"; };
-		792907B02BF3B98D00501DC2 /* macRCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macRCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		792907B42BF3B98D00501DC2 /* macRCMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMTests.swift; sourceTree = "<group>"; };
-		792907BA2BF3B98D00501DC2 /* macRCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macRCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITests.swift; sourceTree = "<group>"; };
-		792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		792907CF2BF3CD0300501DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPluggedIn.swift; sourceTree = "<group>"; };
 		792907DC2BF3F2E600501DC2 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
@@ -66,20 +41,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		792907AD2BF3B98D00501DC2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		792907B72BF3B98D00501DC2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				792907A12BF3B98C00501DC2 /* macRCM */,
-				792907B32BF3B98D00501DC2 /* macRCMTests */,
-				792907BD2BF3B98D00501DC2 /* macRCMUITests */,
 				792907A02BF3B98C00501DC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				7929079F2BF3B98C00501DC2 /* macRCM.app */,
-				792907B02BF3B98D00501DC2 /* macRCMTests.xctest */,
-				792907BA2BF3B98D00501DC2 /* macRCMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,23 +82,6 @@
 				792907A92BF3B98D00501DC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		792907B32BF3B98D00501DC2 /* macRCMTests */ = {
-			isa = PBXGroup;
-			children = (
-				792907B42BF3B98D00501DC2 /* macRCMTests.swift */,
-			);
-			path = macRCMTests;
-			sourceTree = "<group>";
-		};
-		792907BD2BF3B98D00501DC2 /* macRCMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */,
-				792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */,
-			);
-			path = macRCMUITests;
 			sourceTree = "<group>";
 		};
 		792907D52BF3E44800501DC2 /* Binaries */ = {
@@ -176,42 +116,6 @@
 			productReference = 7929079F2BF3B98C00501DC2 /* macRCM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		792907AF2BF3B98D00501DC2 /* macRCMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 792907C72BF3B98D00501DC2 /* Build configuration list for PBXNativeTarget "macRCMTests" */;
-			buildPhases = (
-				792907AC2BF3B98D00501DC2 /* Sources */,
-				792907AD2BF3B98D00501DC2 /* Frameworks */,
-				792907AE2BF3B98D00501DC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				792907B22BF3B98D00501DC2 /* PBXTargetDependency */,
-			);
-			name = macRCMTests;
-			productName = macRCMTests;
-			productReference = 792907B02BF3B98D00501DC2 /* macRCMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		792907B92BF3B98D00501DC2 /* macRCMUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 792907CA2BF3B98D00501DC2 /* Build configuration list for PBXNativeTarget "macRCMUITests" */;
-			buildPhases = (
-				792907B62BF3B98D00501DC2 /* Sources */,
-				792907B72BF3B98D00501DC2 /* Frameworks */,
-				792907B82BF3B98D00501DC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				792907BC2BF3B98D00501DC2 /* PBXTargetDependency */,
-			);
-			name = macRCMUITests;
-			productName = macRCMUITests;
-			productReference = 792907BA2BF3B98D00501DC2 /* macRCMUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,14 +128,6 @@
 				TargetAttributes = {
 					7929079E2BF3B98C00501DC2 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					792907AF2BF3B98D00501DC2 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 7929079E2BF3B98C00501DC2;
-					};
-					792907B92BF3B98D00501DC2 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 7929079E2BF3B98C00501DC2;
 					};
 				};
 			};
@@ -252,8 +148,6 @@
 			projectRoot = "";
 			targets = (
 				7929079E2BF3B98C00501DC2 /* macRCM */,
-				792907AF2BF3B98D00501DC2 /* macRCMTests */,
-				792907B92BF3B98D00501DC2 /* macRCMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,20 +161,6 @@
 				792907A72BF3B98D00501DC2 /* Assets.xcassets in Resources */,
 				79666ECF2BF48B130003D886 /* nxboot in Resources */,
 				79666ED02BF48B130003D886 /* nxboot_arm64 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		792907AE2BF3B98D00501DC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		792907B82BF3B98D00501DC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,37 +178,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		792907AC2BF3B98D00501DC2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				792907B52BF3B98D00501DC2 /* macRCMTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		792907B62BF3B98D00501DC2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				792907BF2BF3B98D00501DC2 /* macRCMUITests.swift in Sources */,
-				792907C12BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		792907B22BF3B98D00501DC2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7929079E2BF3B98C00501DC2 /* macRCM */;
-			targetProxy = 792907B12BF3B98D00501DC2 /* PBXContainerItemProxy */;
-		};
-		792907BC2BF3B98D00501DC2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7929079E2BF3B98C00501DC2 /* macRCM */;
-			targetProxy = 792907BB2BF3B98D00501DC2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		792907C22BF3B98D00501DC2 /* Debug */ = {
@@ -507,78 +357,6 @@
 			};
 			name = Release;
 		};
-		792907C82BF3B98D00501DC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G89J82G2A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macRCM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macRCM";
-			};
-			name = Debug;
-		};
-		792907C92BF3B98D00501DC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G89J82G2A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macRCM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macRCM";
-			};
-			name = Release;
-		};
-		792907CB2BF3B98D00501DC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G89J82G2A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macRCM;
-			};
-			name = Debug;
-		};
-		792907CC2BF3B98D00501DC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G89J82G2A;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.cclerc.macRCMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macRCM;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -596,24 +374,6 @@
 			buildConfigurations = (
 				792907C52BF3B98D00501DC2 /* Debug */,
 				792907C62BF3B98D00501DC2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		792907C72BF3B98D00501DC2 /* Build configuration list for PBXNativeTarget "macRCMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				792907C82BF3B98D00501DC2 /* Debug */,
-				792907C92BF3B98D00501DC2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		792907CA2BF3B98D00501DC2 /* Build configuration list for PBXNativeTarget "macRCMUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				792907CB2BF3B98D00501DC2 /* Debug */,
-				792907CC2BF3B98D00501DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
