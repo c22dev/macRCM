@@ -52,7 +52,7 @@ struct ContentView: View {
 
             }
             if !(selectedFile == nil) {
-                Text("Selected payload : \(urltoString(selectedFile!))")
+                Text("Selected payload : \(selectedFile!.lastPathComponent)")
             }
             HStack {
                 Toggle(isOn: $isBg) {

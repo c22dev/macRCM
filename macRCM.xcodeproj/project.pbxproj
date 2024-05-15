@@ -15,10 +15,10 @@
 		792907BF2BF3B98D00501DC2 /* macRCMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */; };
 		792907C12BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */; };
 		792907D42BF3CF2800501DC2 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 792907D32BF3CF2800501DC2 /* LaunchAtLogin */; };
-		792907D72BF3E45200501DC2 /* nxboot_arm64 in Resources */ = {isa = PBXBuildFile; fileRef = 792907D62BF3E45200501DC2 /* nxboot_arm64 */; };
-		792907D92BF3E46A00501DC2 /* nxboot in Resources */ = {isa = PBXBuildFile; fileRef = 792907D82BF3E46A00501DC2 /* nxboot */; };
 		792907DB2BF3ECB600501DC2 /* SwitchPluggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */; };
 		792907DD2BF3F2E600501DC2 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792907DC2BF3F2E600501DC2 /* MenuBar.swift */; };
+		79666ECF2BF48B130003D886 /* nxboot in Resources */ = {isa = PBXBuildFile; fileRef = 79666ECD2BF48B130003D886 /* nxboot */; };
+		79666ED02BF48B130003D886 /* nxboot_arm64 in Resources */ = {isa = PBXBuildFile; fileRef = 79666ECE2BF48B130003D886 /* nxboot_arm64 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,10 @@
 		792907BE2BF3B98D00501DC2 /* macRCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITests.swift; sourceTree = "<group>"; };
 		792907C02BF3B98D00501DC2 /* macRCMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macRCMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		792907CF2BF3CD0300501DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		792907D62BF3E45200501DC2 /* nxboot_arm64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot_arm64; path = ../../../../../Downloads/nxboot_arm64; sourceTree = "<group>"; };
-		792907D82BF3E46A00501DC2 /* nxboot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot; path = ../../../../../Downloads/nxboot; sourceTree = "<group>"; };
 		792907DA2BF3ECB600501DC2 /* SwitchPluggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPluggedIn.swift; sourceTree = "<group>"; };
 		792907DC2BF3F2E600501DC2 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		79666ECD2BF48B130003D886 /* nxboot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot; path = ../../../../nxboot; sourceTree = "<group>"; };
+		79666ECE2BF48B130003D886 /* nxboot_arm64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = nxboot_arm64; path = ../../../../nxboot_arm64; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		792907D52BF3E44800501DC2 /* Binaries */ = {
 			isa = PBXGroup;
 			children = (
-				792907D62BF3E45200501DC2 /* nxboot_arm64 */,
-				792907D82BF3E46A00501DC2 /* nxboot */,
+				79666ECD2BF48B130003D886 /* nxboot */,
+				79666ECE2BF48B130003D886 /* nxboot_arm64 */,
 			);
 			path = Binaries;
 			sourceTree = "<group>";
@@ -263,10 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792907D92BF3E46A00501DC2 /* nxboot in Resources */,
-				792907D72BF3E45200501DC2 /* nxboot_arm64 in Resources */,
 				792907AA2BF3B98D00501DC2 /* Preview Assets.xcassets in Resources */,
 				792907A72BF3B98D00501DC2 /* Assets.xcassets in Resources */,
+				79666ECF2BF48B130003D886 /* nxboot in Resources */,
+				79666ED02BF48B130003D886 /* nxboot_arm64 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
