@@ -6,8 +6,9 @@ Swift-Made macOS RCM Payload Injector for Nintendo Switch
 2. Move the .app to your Applications folder (or any other folder)
 3. Run the app, plug your Switch in RCM Mode.
 
-## Background Mode (wip: not working on every paths)
+## Background Mode
 Select the payload with the Documents icon next to background mode, clear it with the cross.
+Sandbox limitation - You have to reselect your file every time you start the app. I'm trying a way around it but for now it's the only way
 
 Please ensure to not delete the selected background payload at it's path
 
